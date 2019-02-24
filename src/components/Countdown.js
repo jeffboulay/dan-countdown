@@ -10,7 +10,7 @@ export default class Countdown extends Component {
     render() {
         const { description } = this.props;
         return (
-            <div>
+            <div className ="card">
                 <h1 className="days"> {this.state.daysFrom}</h1>
                 <h2> until {description}</h2>
             </div>

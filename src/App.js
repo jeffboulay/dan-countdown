@@ -6,6 +6,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
+                <h1>Dan Countdown</h1>
                 <Countdown
                     description="Dan moves to texas"
                     date="2019, 3, 23"
